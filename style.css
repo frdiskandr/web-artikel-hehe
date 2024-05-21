@@ -4,12 +4,13 @@
 }
 body{
     font-family: Arial;
+    background-color: white;
 }
 .container{
     width: 80%;
-    height: 100vh;
     margin: auto;
     background-color: snow;
+    padding: 10px;
 }
 .header{
     padding: 20px;
@@ -17,9 +18,11 @@ body{
 }
 .title{
     font-size: 40px;
+    margin-bottom: 10px;
 }
-.nav-bar{
-    padding-top: 20px;
+.nav-bar ul li{
+    display: inline-block;
+    margin-top: 3vh;
 }
 .nav-bar a{
     text-decoration: none;
@@ -38,6 +41,8 @@ body{
 .image{
     width: 100%;
     box-sizing: border-box;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid lightslategrey;
 }
 .image img{
     width: 100%;
